@@ -5,13 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <title>CAPI Podología</title>
     </head>
     <body>
-        <header class="container-fluid d-flex justify-content-around flex-wrap">
+        <header class="container-fluid sticky-top d-flex justify-content-around flex-wrap">
             <div id="logo">
                 <img id="logoimg" src="https://i.ibb.co/tK3YJh9/Whats-App-Image-2021-11-09-at-12-21-47-PM.jpg" alt="CAPI podologia" border="0">
             </div>
+            <nav class="navbar navbar-expand-lg mb-3">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <div class="menu d-flex justify-content-center align-items-center">
                 <ul class="nav d-flex justify-content-center align-items-center">
                   <li class="nav-item">
@@ -31,16 +34,44 @@
                   </li>
                 </ul>
             </div>
-        </header>
-        
-        <section id="banner" class="container-fluid">
-            <div id="opacity" class="container-fluid">
-                
             </div>
-            
-            
+            </nav>
+             <nav class="navbar navbar-expand-lg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <img id="imgMenu" src="https://i.ibb.co/5kZVHfQ/menus.png" alt="menus">
+                </button>
+                </nav>
+        </header>
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        <section id="containerBanner" class="container-fluid d-flex justify-content-center">
+            <div id="banner" class="container-fluid">
+                <div id="opacity" class="container-fluid d-flex text-center justify-content-center align-content-center align-items-center flex-wrap">
+                    <h1 class="titlesBanner">CAPI Podología UBA</h1>
+                    <h2 class="titlesBanner">Consultorio de Atención a la Podología Integral</h2>
+                    <div class="titlesBanner"><button id="btn" class="btn btn-success btn-lg" type="button">¡PEDÍ TU TURNO YA!<img class="redes" src="https://i.ibb.co/chfL26G/whatsapp-1.png" alt="whatsapp-1" border="0"></button></div>
+                </div>
+            </div>
         </section>
-                
+        <section id="servicios" class="container-fluid d-flex mt-2">
+            <div class="container-sm d-flex justify-content-center align-items-center flex-wrap">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-sm-6 d-flex justify-content-center align-items-center flex-wrap">
+                        <h1 id="titlePrincipal" class="titleServicios mb-3">Quiénes somos</h1>
+                        <p class="titleServicios">Somos podólogos graduados en la Universidad de Buenos Aires con constantes actividades de actualización sobre lo último en tratamientos del pie en general. </p>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-center align-items-center flex-wrap">
+                        <p class="titleServicios">Dichas actualizaciones nos dan un conocimiento efectivo a la hora de la atención en las terapias a realizar en las diferentes patologías relacionadas con el pie en general. </p>
+                        <p class="titleServicios">Somos podólogos graduados en la Universidad de Buenos Aires con constantes actividades de actualización sobre lo último en tratamientos del pie en general.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
         
     </body>
 </html>

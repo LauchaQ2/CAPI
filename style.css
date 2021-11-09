@@ -2,7 +2,7 @@
    border: 1px black solid;
 }*/
 header{
-    background-color: #58a24c;
+    background-color: white;
 }
 .menu{
     width: auto;
@@ -13,24 +13,82 @@ header{
 }
 .nav-link{
     text-decoration: none!important;
-    color: black!important;
+    color: #296F3D!important;
     font-weight: bold;
 }
 .nav-item{
     margin-right: 5px;
 }
 #banner{
-    background-color: black;
-    height: 500px;
+    margin: 0;
+    background-color: #58a24c;
+    height: 100%;
+    width: 100%;
     background-image: url('https://podologiaelenagarcia.com/wp-content/uploads/2019/05/la-importancia-de-higiene-y-esterilizacion-en-clinicas-de-podologia_flowww.png');
     background-size: cover;
     padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
 }
 #opacity{
     background-color: black;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    background: rgba(0,0,0,0.5);
     padding: 0;
     margin: 0;
 }
+#containerBanner{
+    padding: 0;
+    height: 480px;
+    width: 100%;
+}
+#imgMenu{
+    width: 30px;
+    height: 30px;
+}
+.titlesBanner{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-bottom: 50px;
+}
+.redes{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+}
+#btn{
+    font-size: 25px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+#servicios{
+    height: 250px;
+}
+#titleServicios{
+    width: 100%;
+    border: 1px solid black;
+}
+#titlePrincipal{
+    border-bottom: solid #25d366 2px;
+}
+

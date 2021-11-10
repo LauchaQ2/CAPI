@@ -58,7 +58,7 @@ header{
 .redes{
     height: 40px;
     width: 40px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 #btn{
     font-size: 25px;
@@ -91,4 +91,14 @@ header{
 #titlePrincipal{
     border-bottom: solid #25d366 2px;
 }
+#titlePatologies{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: solid #25d366 2px;
+}
+#contactList{
+    width: 100%;
+}
+
 

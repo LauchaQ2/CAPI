@@ -88,7 +88,7 @@ header{
     width: 100%;
     border: 1px solid black;
 }
-#titlePrincipal{
+.titlePrincipal{
     border-bottom: solid #25d366 2px;
 }
 #titlePatologies{
@@ -98,7 +98,11 @@ header{
     border-bottom: solid #25d366 2px;
 }
 #contactList{
-    width: 100%;
+    width: 90%;
+    padding: 0!important;
+}
+.nopadding{
+    padding: 0!important;
 }
 
 

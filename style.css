@@ -104,5 +104,9 @@ header{
 .nopadding{
     padding: 0!important;
 }
+.list-group-item{
+    border: 0px!important;
+    border-bottom: 
+}
 
 

@@ -13,14 +13,6 @@ ScrollReveal().reveal('#dataBanner3', {
     distance: '50px',
     duration: 1200
 });
-
-ScrollReveal().reveal('#header', { 
-    delay: 100, 
-    distance: '100px',
-    origin: 'top',
-    duration: 1200
-});
-
 ScrollReveal().reveal('#patologia1', { 
     delay: 600, 
     distance: '50px',

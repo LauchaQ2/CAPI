@@ -15,10 +15,10 @@ ScrollReveal().reveal('#dataBanner3', {
 });
 
 ScrollReveal().reveal('#header', { 
-    delay: 300, 
+    delay: 100, 
     distance: '100px',
     origin: 'top',
-    duration: 1000
+    duration: 1200
 });
 
 ScrollReveal().reveal('#patologia1', { 

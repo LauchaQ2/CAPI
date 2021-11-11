@@ -1,6 +1,13 @@
 /**{
    border: 1px black solid;
 }*/
+*{
+    font-family: Gamma;
+}
+@font-face{
+    font-family: Gamma;
+    src: url(Gamma Book Regular.otf);
+}
 header{
     background-color: white;
 }
@@ -8,7 +15,7 @@ header{
     width: auto;
 }
 #logoimg{
-    width: 100px;
+    width: 200px;
     height: 100px;
 }
 .nav-link{

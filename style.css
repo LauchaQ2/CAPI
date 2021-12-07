@@ -6,7 +6,7 @@
 }
 @font-face{
     font-family: Gamma;
-    src: url(Gamma Book Regular.otf);
+    src: url(GammaBookRegular.otf);
 }
 header{
     background-color: white;
@@ -28,15 +28,15 @@ header{
 }
 #banner{
     margin: 0;
-    background-color: #58a24c;
+    background-color: white;
     height: 100%;
     width: 100%;
-    background-image: url('https://podologiaelenagarcia.com/wp-content/uploads/2019/05/la-importancia-de-higiene-y-esterilizacion-en-clinicas-de-podologia_flowww.png');
-    background-size: cover;
+    background-image: url('https://i.ibb.co/qRb2S3S/IMG-1236.jpg');
+    background-size:cover;
     padding: 0;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: top;
+    background-position-y: center;
 }
 #opacity{
     background-color: black;
@@ -48,7 +48,7 @@ header{
 }
 #containerBanner{
     padding: 0;
-    height: 480px;
+    height: 600px;
     width: 100%;
 }
 #imgMenu{
@@ -60,7 +60,6 @@ header{
     width: 100%;
     height: auto;
     color: white;
-    margin-bottom: 50px;
 }
 .redes{
     height: 40px;
@@ -113,7 +112,11 @@ header{
 }
 .list-group-item{
     border: 0px!important;
-    border-bottom: 
 }
 
-
+#patologia3 img{
+    object-fit: cover;
+}
+.card-title{
+    font-weight: bold;
+}

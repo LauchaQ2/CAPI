@@ -31,6 +31,18 @@ ScrollReveal().reveal('#patologia3', {
     duration: 1500,
     origin: 'right'
 });
+ScrollReveal().reveal('#patologia4', { 
+    delay: 600, 
+    distance: '50px',
+    duration: 1500,
+    origin: 'left'
+});
+ScrollReveal().reveal('#patologia5', { 
+    delay: 600, 
+    distance: '50px',
+    duration: 1500,
+    origin: 'right'
+});
 ScrollReveal().reveal('#titlePathology', { 
     delay: 400, 
     distance: '50px',

@@ -114,7 +114,7 @@ header{
     border: 0px!important;
 }
 
-#patologia3 img{
+#patologia3 img, #patologia5 img{
     object-fit: cover;
 }
 .card-title{

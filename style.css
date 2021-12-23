@@ -3,6 +3,9 @@
 *{
     font-family: Gamma;
 }
+body{
+    overflow-x: hidden;
+ }   
 @font-face{
     font-family: Gamma;
     src: url(GammaBookRegular.otf);

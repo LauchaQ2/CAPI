@@ -4,7 +4,7 @@
     font-family: Gamma;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden!important;
  }   
 @font-face{
     font-family: Gamma;
